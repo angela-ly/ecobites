@@ -14,12 +14,15 @@ Virtualenv is a tool to set up your Python environments. You can install venv to
         ```
 
 After the project has been set up. Run the following command (start from this step):
-         ```python3.12 -m venv env```
+         ```python3.<your_python_version> -m venv env```
+
+To check your python version:
+        ``` python3 --version```
 
 To activate your virtual environment, run the code below:
         ```source env/bin/activate```
 
-Generate a text file listing all your project dependencies by running the code below:
+!You donot need to run this step. Generate a text file listing all your project dependencies by running the code below:
         ```pip3 freeze > requirements.txt```
 
 
@@ -33,12 +36,14 @@ Instead of having to install each dependency one by one, they could just run the
         ``` ~ pip3 install -r requirements.txt```
 
 
-To deactivate your virtual environment, simply run the following code in the terminal:
-         ```~ deactivate```
-
 
 Flask needs to know, the .py file to run. So run that command:
          ```export FLASK_APP=ecobites.py```
 
 To run the application:
          ```flask run```
+
+
+
+To deactivate your virtual environment, simply run the following code in the terminal:
+         ```~ deactivate```
