@@ -13,7 +13,7 @@ Virtualenv is a tool to set up your Python environments. You can install venv to
         pip3 install virtualenv   
         ```
 
-To use venv in your project, in your terminal, create a new project folder, cd to the project folder in your terminal, and run the following command:
+After the project has been set up. Run the following command (start from this step):
          ```python<version> -m venv <virtual-environment-name>```
 
 To activate your virtual environment, run the code below:
