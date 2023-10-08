@@ -14,7 +14,7 @@ Virtualenv is a tool to set up your Python environments. You can install venv to
         ```
 
 After the project has been set up. Run the following command (start from this step):
-         ```python<version> -m venv <virtual-environment-name>```
+         ```python3.12 -m venv env```
 
 To activate your virtual environment, run the code below:
         ```source env/bin/activate```
